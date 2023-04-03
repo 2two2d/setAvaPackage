@@ -1,0 +1,21 @@
+{
+  "name": "2two2d/setava",
+  "description": "This module allows you to set ava for your user",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "2two2d",
+      "email": "notmax2000@mail.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.4 | ^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SetAva\\": "src/"
+    }
+  }
+}
