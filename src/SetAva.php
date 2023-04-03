@@ -2,7 +2,7 @@
 
 namespace SetAva;
 
-class SetAva
+trait SetAva
 {
     public function setAva($img){
         $imgUniqueName = md5(time()).'.'.explode('/',$img['type'])[1];
